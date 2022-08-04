@@ -1,5 +1,5 @@
 services:
-- type: pserv
+- type: web
   name: turborepo-remote-cache
   region: singapore
   plan: Starter
