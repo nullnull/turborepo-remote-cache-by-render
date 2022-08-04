@@ -6,7 +6,7 @@ services:
   env: docker
   disk:
     name: disk-turborepo-remote-cache
-    mountPath: /cache
+    mountPath: /home/app/cache
     sizeGB: 10
   envVars:
     - key: NODE_ENV
@@ -20,7 +20,7 @@ services:
     - key: STORAGE_PROVIDER
       value: local
     - key: STORAGE_PATH
-      value: /cache
+      value: /home/app/cache
     # - key: AWS_ACCESS_KEY_ID
     #   value: 
     # - key: AWS_SECRET_ACCESS_KEY
