@@ -2,7 +2,7 @@ services:
 - type: web
   name: turborepo-remote-cache
   region: singapore
-  plan: Starter
+  plan: Free
   env: docker
   disk:
     name: disk-turborepo-remote-cache
